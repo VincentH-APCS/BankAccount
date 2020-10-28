@@ -26,7 +26,7 @@ public boolean deposit(double amount){
   }
 }
 public boolean withdraw(double amount){
-  if(amount > balance){
+  if(amount < 0 || amount > balance){
     return false;
   }
   else {
