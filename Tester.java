@@ -4,7 +4,7 @@ public class Tester{
     System.out.println(Ba1.getBalance());
     Ba1.setPassword("newthinghaha");
     //System.out.println(Ba1.deposit(500.01));
-    if( Ba1.deposit(500.01) ){
+    if( Ba1.deposit(-555) ){
            System.out.println("Deposit success!");
       }else{
            System.out.println("Deposit failure");
