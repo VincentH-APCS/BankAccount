@@ -13,8 +13,7 @@ public double getBalance(){
 public int getAccountID(){
   return accountID;
 }
-public String setPassword(String newPass){
+public void setPassword(String newPass){
   password = newPass;
-  return password; //this will just be to test if the password changed
 }
 }
