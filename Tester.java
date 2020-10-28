@@ -9,7 +9,7 @@ public class Tester{
       }else{
            System.out.println("Deposit Failure");
       }
-      if( Ba1.withdraw(0) ){
+      if( Ba1.withdraw(7777) ){
              System.out.println("Withdrawal Success!");
         }else{
              System.out.println("Withdrawal Failure");
