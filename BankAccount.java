@@ -25,4 +25,13 @@ public boolean deposit(double amount){
     return true;
   }
 }
+public boolean withdraw(double amount){
+  if(amount > balance){
+    return false;
+  }
+  else {
+    balance = balance - amount;
+    return true;
+  }
+}
 }
