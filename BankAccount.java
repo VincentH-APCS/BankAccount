@@ -38,10 +38,7 @@ public String toString(){
   return ("#"+accountID +"\t$"+balance);
 }
 public boolean authenticate(String password){
-  if(this.password.equals(password)){
-    return true;
-  }
-  else return false;
+  return(this.password.equals(password));
 }
 }
 // : )
