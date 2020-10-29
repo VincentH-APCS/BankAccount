@@ -35,7 +35,13 @@ public boolean withdraw(double amount){
   }
 }
 public String toString(){
-  return (""+accountID+"\t"+balance+"" );
+  return ("#"+accountID +"\t$"+balance);
+}
+public boolean authenticate(String password){
+  if(this.password.equals(password)){
+    return true;
+  }
+  else return false;
 }
 }
 // : )
