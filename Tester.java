@@ -12,6 +12,6 @@ public class Tester{
     System.out.println(Ba1.getBalance());
    System.out.println(Ba1.toString());
 //  System.out.println(Ba1.authenticate("newthinghaha"));
-  System.out.println(Ba1.transferTo(Ba2,110,"newthinghaha"));
+  System.out.println(Ba1.transferTo(Ba2,1100,"newthinghaha"));
 }
 }
